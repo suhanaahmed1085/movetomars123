@@ -1,16 +1,24 @@
 
   body{
-    background-color:#000000}
+    background-color:#000000;
+  font-family: monospace;
+}
   h1{
     color:#FFFFFF;
     font-family: monospace;
     font-size: 5em;
     text-align: center
   }
-  h2{
-    color:#FFFFFF;
-    font-family:monospace;
-    margin-bottom: 10%;
-    text-align: center
-  }
-  
+
+
+.nav{
+  background-color:#525252;
+}
+
+.nav a {
+  color: white;
+  padding: 1em;
+  text-align: center;
+  display: inline-block;
+  font: monospace;
+}
