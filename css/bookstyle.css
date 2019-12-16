@@ -1,0 +1,24 @@
+body{
+  background-color:#000000;
+font-family: monospace;
+}
+.nav{
+  background-image: starrynight.jpeg;
+  text-align: right;
+}
+
+.nav a {
+  color: white;
+  padding: 4em;
+  text-align: right;
+  display: inline-block;
+  font: monospace;
+  padding: 25 px 0 25px;
+  font-size: 3em
+  list-style-type: none;
+}
+h1{
+  color:#FFFFFF;
+  font-family: monospace;
+  font-size: 1.5em;
+  text-align: center

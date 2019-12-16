@@ -1,24 +1,20 @@
-
-  body{
-    background-color:#000000;
-  font-family: monospace;
+body{
+  background-color:#000000;
+font-family: monospace;
 }
-  h1{
-    color:#FFFFFF;
-    font-family: monospace;
-    font-size: 4em;
-    text-align: center
-  }
+h1{
+  color:#FFFFFF;
+  font-family: monospace;
+  font-size: 3em;
+  text-align: center;
+}
 h2{
   color:#FFFFFF;
   font-family: monospace;
-  font-size: 1.5em;
-  text-align: center
+  font-size: 2em;
 }
-}
-
 .nav{
-  background-image: starrynight.jpeg;
+  background:black;
   text-align: right;
 }
 
