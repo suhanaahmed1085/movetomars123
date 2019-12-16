@@ -12,13 +12,16 @@
 
 
 .nav{
-  background-color:#525252;
+  background-image: starrynight.jpeg;
+  text-align: right;
 }
 
 .nav a {
   color: white;
-  padding: 1em;
-  text-align: center;
+  padding: 2em;
+  text-align: right;
   display: inline-block;
   font: monospace;
+  padding: 25 px 0 25px;
+  font-size: 1.5em
 }
