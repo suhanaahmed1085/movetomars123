@@ -10,7 +10,25 @@
   h2{
     color:#FFFFFF;
     font-family:monospace;
-    margin-bottom: 10%;
     text-align: center
   }
-  
+
+  /* .btn {
+      border: none;
+      background-color: inherit;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+      display: inline-block;
+      text-align: center
+    } */
+
+  .buttons{
+    color:#000000
+    font-family:monospace;
+    text-align: center
+  }
+
+  #current_page{
+    background-color: grey;
+  }
