@@ -7,16 +7,15 @@ h1{
   font-family: monospace;
   font-size: 3em;
   text-align: center;
+  text-decoration: underline;
+  line-height: 60px;
 }
-h2{
+p{
   color:#FFFFFF;
   font-family: monospace;
   font-size: 2em;
-}
-h3{
-  color:#FFFFFF;
-  font-family: monospace;
-  font-size: 2em;
+  word-spacing: 10px;
+  padding-left: 20px;
 }
 .nav{
   background:black;
@@ -37,6 +36,7 @@ img{
    border-radius: 18px;
    max-width: 100%;
    height: auto;
+   padding:4em;
 }
 .iframe-container{
   position: relative;
@@ -48,7 +48,22 @@ img{
   left:0;
   witdth:100%;
   length:100%;
+  padding-left:4em;
 }
 figcaption{
   color: white;
+}
+h2{
+  color:#FFFFFF;
+  font-family: monospace;
+  font-size: 2em;
+  text-align:left;
+  padding-left:600px;
+ margin: 0px;
+ padding-right: 40px;
+ word-spacing: 10px;
+}
+.twitter-hashtag-button{
+  padding-left: 100px;
+
 }
