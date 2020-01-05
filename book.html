@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script> src="js/script.js" </script>
     <link rel="stylesheet" type="text/css" href="css/bookstyle.css">
     </head>
     <body>
@@ -15,5 +16,36 @@
         <li><a href="about.html">About </a></li>
         <li><a href="#">Book Your Place Now </a></li>
       </ul>
-<h1> Book your place with us now, we offer competitive rates and you could be eligible for premium membership which allows added benefits </h1>
+<h1> Check whether you are elgible to book you place on Mars, we offer competitive rates and you could be eligible for premium membership which allows added benefits </h1>
+<form action="/action_page.php">
+  First name:<br>
+  <input type="text" name="firstname" value="Mickey">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value="Mouse">
+  <br><br>
+  National Insurance Number:<br>
+  <input type="text" name="firstname" value="PC8923D">
+  <br>
+  Address:<br>
+  <input type="text" name="firstname" value="15 Kenwood Gardens">
+  <br>
+  Postcode:<br>
+  <input type="text" name="firstname" value="IG2 6YH">
+  <br>
+  Gender:<br>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+   <input type="radio" name="gender" value="female"> Female<br>
+   <input type="radio" name="gender" value="other"> Other
+
+  <h3> I would like to be notified of any additional services offered </h3>
+  Yes:<br>
+  <input type="radio" name="lastname" value="Mouse">
+  <br>
+  No:<br>
+  <input type="radio" name="lastname" value="Mouse">
+  <br>
+  <button onclick="revealMessage()"> Submit </button>
+  <p id="hiddenMessage" style= "display:none"> Your information is being assessed </p>
+</form>
 </body>
