@@ -32,3 +32,13 @@ h3{
   font-family: monospace;
   font-size: 1em;
 }
+.btn{
+  width: 160px;
+  height: 55px;
+  background-color:#525252;
+  border-radius: 10px;
+  font-size: 22px;
+  text-align: center;
+
+
+}

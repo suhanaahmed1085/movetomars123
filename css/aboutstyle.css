@@ -13,6 +13,11 @@ h2{
   font-family: monospace;
   font-size: 2em;
 }
+h3{
+  color:#FFFFFF;
+  font-family: monospace;
+  font-size: 2em;
+}
 .nav{
   background:black;
   text-align: right;
@@ -27,4 +32,23 @@ h2{
   padding: 25 px 0 25px;
   font-size: 3em
   list-style-type: none;
+}
+img{
+   border-radius: 18px;
+   max-width: 100%;
+   height: auto;
+}
+.iframe-container{
+  position: relative;
+  width: 100%;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left:0;
+  witdth:100%;
+  length:100%;
+}
+figcaption{
+  color: white;
 }
