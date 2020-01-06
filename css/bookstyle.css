@@ -1,9 +1,8 @@
 body{
-  background-color:#000000;
+background-color:#000000;
 font-family: monospace;
 }
 .nav{
-  background-image: starrynight.jpeg;
   text-align: right;
 }
 
