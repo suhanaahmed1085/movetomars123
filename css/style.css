@@ -6,8 +6,10 @@
   h1{
     color:#FFFFFF;
     font-family: monospace;
-    font-size: 4em;
+    font-size: 5em;
     text-align: center;
+    font-size: 5em;
+
   }
 
 h2{
@@ -17,7 +19,20 @@ h2{
   text-align: center;
   text-decoration: underline;
 }
+.nav{
+  text-align: right;
+}
 
+.nav a {
+  color: white;
+  padding: 4em;
+  text-align: right;
+  display: inline-block;
+  font: monospace;
+  padding: 25 px 0 25px;
+  font-size: 3em
+  list-style-type: none;
+}
 
   /* .btn {
       border: none;
@@ -32,9 +47,14 @@ h2{
   .buttons{
     color:#000000
     font-family:monospace;
+<<<<<<< HEAD
     text-align: center
   }
 
   #current_page{
     background-color: grey;
   }
+=======
+    margin-bottom: 10%;
+  }
+>>>>>>> parent of 6331884... additions
