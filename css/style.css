@@ -6,63 +6,26 @@
   h1{
     color:#FFFFFF;
     font-family: monospace;
-<<<<<<< HEAD
-    font-size: 4em;
-<<<<<<< HEAD
+    font-size: 5em;
+
     text-align: center;
+    font-size: 5em;
+
   }
 
-=======
     text-align: center
   }
->>>>>>> parent of e758486... Merge pull request #1 from lizzieharris14/master
 h2{
   color:#FFFFFF;
   font-family: monospace;
   font-size: 1.5em;
-<<<<<<< HEAD
   text-align: center;
   text-decoration: underline;
 }
-
-
-  /* .btn {
-      border: none;
-      background-color: inherit;
-      padding: 14px 28px;
-      font-size: 16px;
-      cursor: pointer;
-      display: inline-block;
-      text-align: center
-    } */
-=======
-  text-align: center
-}
-}
->>>>>>> parent of e758486... Merge pull request #1 from lizzieharris14/master
-
 .nav{
-  background-image: starrynight.jpeg;
   text-align: right;
 }
 
-<<<<<<< HEAD
-  #current_page{
-    background-color: grey;
-  }
-=======
-    font-size: 5em;
-    text-align: center
-  }
-  h2{
-    color:#FFFFFF;
-    font-family:monospace;
-    margin-bottom: 10%;
-    text-align: center
-  }
-  
->>>>>>> parent of 4f1c373... Buttons
-=======
 .nav a {
   color: white;
   padding: 4em;
@@ -73,4 +36,41 @@ h2{
   font-size: 3em
   list-style-type: none;
 }
->>>>>>> parent of e758486... Merge pull request #1 from lizzieharris14/master
+
+
+  .buttons{
+    color:#000000
+    font-family:monospace;
+    text-align: center
+  }
+.nav{
+  background-image: starrynight.jpeg;
+  text-align: right;
+}
+
+
+    margin-bottom: 10%;
+  }
+
+    font-size: 5em;
+    text-align: center
+  }
+  h2{
+    color:#FFFFFF;
+    font-family:monospace;
+    margin-bottom: 10%;
+    text-align: center
+  }
+  
+
+.nav a {
+  color: white;
+  padding: 4em;
+  text-align: right;
+  display: inline-block;
+  font: monospace;
+  padding: 25 px 0 25px;
+  font-size: 3em
+  list-style-type: none;
+}
+
